@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.common.uts.DeskripsiFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="RUMAH MAKAN SEDERHANA"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Rumah makan Sederhana adalah sebuah perusahaan yang bergerak di bidang jasa boga atau makanan. Dengan ciri khas masakan ikan Bakar, Rumah Makan Sederhana berawal pada tahun 1982 dari sebuah kios kecil (gerobak dorong) di Pasar Tua Palu. Adalah Bapak H. Dahri Iskandar dan istri Hj. Dinem sebagai pendiri sekaligus pemilik yang telah begitu gigih dan tekun sehingga Rumah Makan Sederhana telah menjadi salah satu Rumah Makan teramai yang berada di wilayah kecamatan Palu Barat provinsi (Sulawesi Tengah)"
+        android:id="@+id/textView5"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
